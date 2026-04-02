@@ -1,0 +1,19 @@
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbW5obT
+ZlYXAwMDAwcjR0MmZ3ZHJ4NzVuIiwiZ2l0aHViSWQiOiIxMjM0NSIsImVtYWlsIjoidGVzdEBleGFtcG
+xlLmNvbSIsImV4cCI6MTc3NTc0NzgxN30.Lw1xx49qNwEFPqNxzGaNRLWf5yTVFmHjM8ykxSD_g7o","
+user":{"id":"cmnhm6eap0000r4t2fwdrx75n","email":"test@example.com","name":"Test
+User","githubId":"12345"}}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbW5obTZlYXAwMDAwcjR0MmZ3ZHJ4NzVuIiwiZ2l0aHViSWQiOiIxMjM0NSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImV4cCI6MTc3NTc0NzgxN30.Lw1xx49qNwEFPqNxzGaNRLWf5yTVFmHjM8ykxSD_g7o
+
+curl http://localhost:3000/api/auth/me \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbW5obTZlYXAwMDAwcjR0MmZ3ZHJ4NzVuIiwiZ2l0aHViSWQiOiIxMjM0NSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImV4cCI6MTc3NTc0NzgxN30.Lw1xx49qNwEFPqNxzGaNRLWf5yTVFmHjM8ykxSD_g7o"
+
+{"success":true,"user":{"id":"cmnhm6eap0000r4t2fwdrx75n","email":"test@example.c
+om","name":"Test User","githubId":"12345"}}
+
+curl http://localhost:3000/api/auth/me \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbW5obTZlYXAwMDAwcjR0MmZ3ZHJ4NzVuIiwiZ2l0aHViSWQiOiIxMjM0NSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImV4cCI6MTc3NTc0NzgxN30.Lw1xx49qNwEFPqNxzGaNRLWf5yTVFmHjM8ykxSD_g7o"
+
+{"success":true,"user":{"id":"cmnhm6eap0000r4t2fwdrx75n","email":"test@example.c
+om","name":"Test User","githubId":"12345"}}
